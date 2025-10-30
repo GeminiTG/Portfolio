@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #D0DB97;
-    color: #355630
+    background-color: #ECFAFF;
+    color: #181D27
 }
 
 
@@ -24,7 +24,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #74A4BC;
+    background-color: #3A7D44;
     position: fixed;
     top: 0;
     width: 100%;
@@ -37,14 +37,18 @@ ul li {
 
 ul li a {
     display: block;
-    color: #355630;
+    color: #69B578;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 ul li a:hover {
-    background-color: #29339B;
+    background-color: #254D32;
+}
+
+div.contactinfo {
+    text-align: center;
 }
 
 div.gallery {
