@@ -1,0 +1,113 @@
+body {
+    background-color: #D0DB97;
+    color: #355630
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: #2F2963;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #74A4BC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: #355630;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #29339B;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.gallery-item-vertical {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+div.gallery-item-vertical img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery-item-vertical div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery-item-horizontal {
+    margin: 5px;
+    border: 1px solid #ccc;
+    height: 280px;
+}
+
+div.gallery-item-horizontal img {
+    height: 100%;
+    width: auto;
+}
+
+div.gallery-item-horizontal div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.album {
+    padding: 20px;
+}
+
+div.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.album-container div.desc {
+    padding-top: 5px;
+    text-align: center;
+}
+
+div.album-container:hover {
+    opacity: 80%;
+}
+
+.crop {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 400px;
+    height: auto;
+    margin: -75px 0 0 -100px;
+}
