@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     background-color: #D0DB97;
     color: #355630
@@ -61,7 +65,7 @@ div.gallery-item-vertical img {
 }
 
 div.gallery-item-vertical div.desc {
-    padding: 15px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -100,14 +104,46 @@ div.album-container:hover {
     opacity: 80%;
 }
 
-.crop {
+div.crop {
     width: 400px;
     height: 400px;
     overflow: hidden;
 }
 
-.crop img {
+div.crop img {
     width: 400px;
     height: auto;
-    margin: -75px 0 0 -100px;
+    margin: -200px 1 0 -100px;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
