@@ -100,7 +100,7 @@ div.album-container div.desc {
     text-align: center;
 }
 
-div.album-container:hover {
+div.album:hover {
     opacity: 80%;
 }
 
