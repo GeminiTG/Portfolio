@@ -10,7 +10,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 p {
@@ -151,3 +151,26 @@ div.crop img {
     }
 }
 
+div.about-me {
+    text-align: center;
+    font-size: 14pt;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3A7D44;
+    color: #181D27;
+    text-align: center;
+}
