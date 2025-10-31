@@ -14,8 +14,8 @@ h1 {
 }
 
 p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: #2F2963;
 }
 
@@ -170,6 +170,7 @@ div.about-me {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 5%;
     background-color: #3A7D44;
     color: #181D27;
     text-align: center;
